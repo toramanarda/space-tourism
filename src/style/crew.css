@@ -1,0 +1,59 @@
+/* ========= Crew ========== */
+.crew {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.crew img {
+    min-height: 60vh;
+    max-height: 60vh;
+    margin-top: 70px;
+}
+
+/* Crew Text */
+
+.crew-text span {
+    display: inline-block;
+    font-weight: 400;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    font-size: 24px;
+    padding-bottom: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+/* Pagination */
+.pagination-crew {
+    margin-top: -610px;
+}
+
+.pagination-crew span {
+    color: #FFFFFF;
+    opacity: 0.17;
+    font-size: 7rem;
+    cursor: pointer;
+}
+
+.pagination-crew span:hover {
+    opacity: 0.5;
+}
+
+.pagination-crew span.active-dot {
+    color: white;
+    opacity: 1;
+}

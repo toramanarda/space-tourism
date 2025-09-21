@@ -1,0 +1,126 @@
+/* ========= Homepage ========== */
+
+
+.home-text {
+    margin-left: 3vw;
+    margin-top: 80px;
+}
+
+#heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    text-transform: uppercase;
+    margin: 20px auto 10px;
+}
+
+.home-text p {
+    font-weight: 400;
+    color: #D0D6F9;
+    width: 90%;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Barlow', sans-serif;
+    margin: 10px auto;
+}
+
+.explore-btn {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+    border-radius: 50%;
+    padding: 80px 30px;
+    border: 0;
+    background-color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 50px 0 30px;
+    cursor: pointer;
+}
+
+.explore-btn::after {
+    content: "";
+    /* width: 330px; */
+    /* height: 330px; */
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.25);
+    position: absolute;
+    display: block;
+    top: -27px;
+    left: -27px;
+}
+
+.explore-btn:hover::after {
+    width: 260px;
+    height: 250px;
+}
+
+/* ========== Mobile (max 600px) ========== */
+@media (max-width: 600px) {
+    .home-text {
+        margin-top: 60px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #heading {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .home-text p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 85%;
+        margin: 0 auto 20px;
+    }
+
+    .explore-btn {
+        font-size: 20px;
+        padding: 50px 20px;
+        margin-top: 40px;
+        position: relative;
+        left: auto;
+        transform: none;
+    }
+
+    .explore-btn:hover::after {
+        width: 180px;
+        height: 170px;
+        top: -20px;
+        left: -20px;
+    }
+
+    .home-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ========== Tablet (min 600px and max 1200px) ========== */
+@media (min-width: 600px) and (max-width: 1200px) {
+   .nav-menu {
+    padding-inline: 0px;
+   }
+}
