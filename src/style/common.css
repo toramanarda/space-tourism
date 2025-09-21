@@ -155,13 +155,42 @@ body {
 
 @media (max-width: 599px) {
 
+    #background {
+        position: fixed;
+        /* sayfayla kaymaz, hep arka planda kalır */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        /* ekran boyu */
+        background-size: cover;
+        /* ekranı doldur */
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
     /* Homepage Start */
 
     .homepage {
         .home-text p {
             margin: 0 auto 119px;
-            font-size: 10px;
+            font-size: 15px;
         }
+    }
+
+    .home-text {
+        h1 {
+            font-size: 80px;
+        }
+
+        #heading {
+            font-size: 17px;
+        }
+    }
+
+    .explore-btn {
+        padding: 50px 15px;
     }
 
     /* Homepage End */
@@ -209,7 +238,33 @@ body {
         margin-top: -530px;
     }
 
+    .crew img {
+        padding-bottom: 30px;
+    }
+
     /* Crew End */
+
+    /* Technology Start */
+
+    .pagination-tech span {
+        padding: 5px 15px;
+    }
+
+    .technology-text {
+        p {
+            padding-inline: 24px;
+            font-size: 15px;
+            padding-bottom: 48px;
+        }
+
+        h3 {
+            font-size: 23px;
+        }
+    }
+
+    .technology-text span {
+        font-size: 24px;
+    }
 
 }
 
