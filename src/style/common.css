@@ -155,13 +155,35 @@ body {
 
 @media (max-width: 599px) {
 
+    /* Homepage Start */
+
     .homepage {
         .home-text p {
             margin: 0 auto 119px;
-            font-size: 15px;
+            font-size: 10px;
         }
     }
 
+    /* Homepage End */
+
+    .container {
+        margin-top: 0;
+        padding-inline: 0px;
+    }
+
+    .destination-names {
+        left: 55%;
+    }
+
+    .destination-text {
+        padding: 32px 24px;
+    }
+
+    .subheading {
+        font-size: 15px;
+        padding-bottom: 40px;
+
+    }
 
 }
 
