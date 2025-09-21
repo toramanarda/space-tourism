@@ -293,6 +293,19 @@ body {
         padding-top: 24px;
     }
 
+    /* Destination End */
+
+    /* Crew Start */
+
+    .pagination-crew {
+        margin-top: -550px;
+    }
+
+    .crew-text {
+        p {
+            font-size: 17px;
+        }
+    }
 
 
 }
