@@ -307,6 +307,33 @@ body {
         }
     }
 
+    /* Crew End */
+
+    /* Technology Start */
+
+
+    .tech-img {
+        width: 765px;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+
+    .subheading {
+        padding-bottom: 88px;
+    }
+
+    .technology-text span {
+        font-size: 34px;
+    }
+
+    .technology-text {
+        p {
+            font-size: 17px;
+        }
+    }
+
+    /* Technology End */
+
 
 }
 
