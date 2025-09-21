@@ -15,7 +15,7 @@ Farklı cihaz boyutlarına uygun **responsive tasarımı**, modern kullanıcı d
 
 ## 🔗 Canlı Demo
 
-👉 [GitHub Repo](https://github.com/toramanarda)  
+👉 [Canlı Demo](https://space-tourism-one-bay.vercel.app/space-tourism/)  
 
 ---
 
