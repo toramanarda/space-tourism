@@ -5,16 +5,15 @@ Farklı cihaz boyutlarına uygun **responsive tasarımı**, modern kullanıcı d
 
 ## 🖼️ Önizleme
 
-![Space Tourism Preview](./screenshot.png)  
-
----
-
-## 🔗 Canlı Demo
 👉 [Canlı İnceleme](./src/screenshot/1.png)  
 👉 [Canlı İnceleme](./src/screenshot/2.png)  
 👉 [Canlı İnceleme](./src/screenshot/3.png)  
 👉 [Canlı İnceleme](./src/screenshot/4.png)  
 👉 [Canlı İnceleme](./src/screenshot/5.png)  
+
+---
+
+## 🔗 Canlı Demo
 
 👉 [GitHub Repo](https://github.com/toramanarda)  
 
