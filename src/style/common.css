@@ -153,6 +153,18 @@ body {
 
 }
 
+@media (max-width: 599px) {
+
+    .homepage {
+        .home-text p {
+            margin: 0 auto 119px;
+            font-size: 15px;
+        }
+    }
+
+
+}
+
 @media (min-width: 700px) {
     nav {
         padding-top: 40px 0px;
@@ -525,6 +537,4 @@ body {
             display: none;
         }
     }
-
-
 }
