@@ -166,6 +166,8 @@ body {
 
     /* Homepage End */
 
+    /* Destination Start */
+
     .container {
         margin-top: 0;
         padding-inline: 0px;
@@ -182,8 +184,32 @@ body {
     .subheading {
         font-size: 15px;
         padding-bottom: 40px;
-
     }
+
+    /* Destination End */
+
+    /* Crew Start */
+
+    .crew-text {
+        padding-inline: 24px;
+
+        h3 {
+            font-size: 25px;
+            padding-bottom: 24px;
+            margin-top: 0;
+        }
+    }
+
+    .crew-text span {
+        padding-bottom: 8px;
+        font-size: 20px;
+    }
+
+    .pagination-crew {
+        margin-top: -530px;
+    }
+
+    /* Crew End */
 
 }
 
